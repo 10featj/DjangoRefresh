@@ -19,8 +19,10 @@ INSTALLED_APPS = [
 
     # Internal apps
     'boards',
+    'accounts',
 
     # Third party apps
+    'widget_tweaks',
 ]
 
 MIDDLEWARE = [
