@@ -2,17 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6081a4dc-69cc-4621-a0c5-dc91c3576e23" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/myproject/boards/forms" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myproject/boards/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myproject/templates/includes/form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/accounts/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/accounts/tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/accounts/tests/test_form_signup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/accounts/tests/test_mail_password_reset.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/accounts/tests/test_view_password_reset.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/accounts/tests/test_view_signup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/boards/templatetags/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/boards/templatetags/form_tags.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/boards/tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/boards/tests/test_templatetags.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/css/accounts.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/img/circles-light.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/img/memphis-colorful.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/js/jquery-3.2.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/static/js/popper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/templates/base_accounts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/templates/password_reset.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/templates/password_reset_confirm.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/templates/password_reset_done.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/templates/password_reset_email.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/templates/password_reset_subject.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/env/pip-selfcheck.json" beforeDir="false" afterPath="$PROJECT_DIR$/env/pip-selfcheck.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myproject/boards/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/myproject/boards/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/accounts/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/accounts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/myproject/accounts/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/boards/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/myproject/boards/tests/test_views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myproject/boards/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/myproject/boards/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myproject/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/myproject/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myproject/myproject/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/myproject/myproject/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myproject/myproject/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/myproject/myproject/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myproject/templates/new_topic.html" beforeDir="false" afterPath="$PROJECT_DIR$/myproject/templates/new_topic.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/myproject/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/templates/includes/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/myproject/templates/includes/form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/templates/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/myproject/templates/signup.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -32,38 +55,20 @@
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/myproject/myproject/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+            <state relative-caret-position="400">
+              <caret line="100" lean-forward="true" selection-start-line="100" selection-end-line="100" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myproject/boards/views.py">
+      <file leaf-file-name="test_templatetags.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myproject/boards/tests/test_templatetags.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="306">
+              <caret line="17" column="72" lean-forward="true" selection-start-line="17" selection-start-column="72" selection-end-line="17" selection-end-column="72" />
               <folding>
-                <element signature="e#0#43#0" expanded="true" />
+                <element signature="e#0#24#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="topics.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myproject/templates/topics.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="new_topic.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myproject/templates/new_topic.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="16" column="63" selection-start-line="16" selection-start-column="63" selection-end-line="16" selection-end-column="63" />
             </state>
           </provider>
         </entry>
@@ -71,59 +76,80 @@
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/myproject/myproject/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="12" lean-forward="true" selection-end-line="12" />
+            <state relative-caret-position="238">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
               <folding>
-                <element signature="e#0#32#0" expanded="true" />
+                <element signature="e#1#38#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myproject/accounts/views.py">
+      <file leaf-file-name="test_view_password_reset.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myproject/accounts/tests/test_view_password_reset.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" column="41" lean-forward="true" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
+            <state relative-caret-position="292">
+              <caret line="95" column="6" selection-start-line="95" selection-start-column="6" selection-end-line="95" selection-end-column="6" />
+              <folding>
+                <element signature="e#0#51#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="signup.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myproject/templates/signup.html">
+      <file leaf-file-name="password_reset_confirm.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myproject/templates/password_reset_confirm.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+            <state relative-caret-position="454">
+              <caret line="33" column="14" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="form.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myproject/templates/includes/form.html">
+      <file leaf-file-name="password_reset_subject.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myproject/templates/password_reset_subject.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="42" selection-start-column="34" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="password_reset_email.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myproject/templates/password_reset_email.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="324">
-              <caret line="18" column="51" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
+              <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tests.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myproject/boards/tests.py">
+      <file leaf-file-name="test_mail_password_reset.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myproject/accounts/tests/test_mail_password_reset.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="132" column="47" selection-start-line="132" selection-start-column="47" selection-end-line="132" selection-end-column="47" />
+            <state relative-caret-position="486">
+              <caret line="27" column="58" selection-start-line="27" selection-start-column="58" selection-end-line="27" selection-end-column="58" />
               <folding>
-                <element signature="e#0#32#0" expanded="true" />
+                <element signature="e#0#28#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="forms.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myproject/boards/forms.py">
+      <file leaf-file-name="password_reset_done.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myproject/templates/password_reset_done.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+            <state relative-caret-position="288">
+              <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="password_reset.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myproject/templates/password_reset.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -134,10 +160,17 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
+        <option value="JavaScript File" />
         <option value="Python Script" />
         <option value="HTML File" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>reverse</find>
+      <find>myproject.boards</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -148,20 +181,41 @@
         <option value="$PROJECT_DIR$/myproject/boards/admin.py" />
         <option value="$PROJECT_DIR$/myproject/boards/models.py" />
         <option value="$PROJECT_DIR$/myproject/templates/home.html" />
-        <option value="$PROJECT_DIR$/myproject/templates/base.html" />
         <option value="$PROJECT_DIR$/myproject/static/css/app.css" />
         <option value="$PROJECT_DIR$/myproject/templates/topics.html" />
         <option value="$PROJECT_DIR$/myproject/boards/forms" />
-        <option value="$PROJECT_DIR$/myproject/boards/views.py" />
         <option value="$PROJECT_DIR$/myproject/boards/forms.py" />
-        <option value="$PROJECT_DIR$/myproject/templates/includes/form.html" />
         <option value="$PROJECT_DIR$/myproject/templates/new_topic.html" />
-        <option value="$PROJECT_DIR$/myproject/boards/tests.py" />
-        <option value="$PROJECT_DIR$/myproject/myproject/settings.py" />
         <option value="$PROJECT_DIR$/myproject/templates/includes/signup.html" />
-        <option value="$PROJECT_DIR$/myproject/templates/signup.html" />
+        <option value="$PROJECT_DIR$/myproject/boards/views.py" />
+        <option value="$PROJECT_DIR$/myproject/boards/tests.py" />
+        <option value="$PROJECT_DIR$/myproject/accounts/forms.py" />
         <option value="$PROJECT_DIR$/myproject/accounts/views.py" />
+        <option value="$PROJECT_DIR$/myproject/accounts/tests.py" />
+        <option value="$PROJECT_DIR$/myproject/accounts/tests/__init__.py" />
+        <option value="$PROJECT_DIR$/myproject/accounts/tests/test_form_signup.py" />
+        <option value="$PROJECT_DIR$/myproject/static/js/jquery-3.2.1.min.js" />
+        <option value="$PROJECT_DIR$/myproject/static/js/popper.min.js" />
+        <option value="$PROJECT_DIR$/myproject/templates/base.html" />
+        <option value="$PROJECT_DIR$/myproject/static/css/accounts.css" />
+        <option value="$PROJECT_DIR$/myproject/templates/base_accounts.html" />
+        <option value="$PROJECT_DIR$/myproject/templates/login.html" />
+        <option value="$PROJECT_DIR$/myproject/templates/signup.html" />
+        <option value="$PROJECT_DIR$/myproject/boards/templatetags/__init__.py" />
+        <option value="$PROJECT_DIR$/myproject/boards/templatetags/form_tags.py" />
+        <option value="$PROJECT_DIR$/myproject/templates/includes/form.html" />
+        <option value="$PROJECT_DIR$/myproject/boards/tests/test_views.py" />
+        <option value="$PROJECT_DIR$/myproject/accounts/tests/test_view_signup.py" />
+        <option value="$PROJECT_DIR$/myproject/boards/tests/test_templatetags.py" />
+        <option value="$PROJECT_DIR$/myproject/myproject/settings.py" />
         <option value="$PROJECT_DIR$/myproject/myproject/urls.py" />
+        <option value="$PROJECT_DIR$/myproject/templates/password_reset.html" />
+        <option value="$PROJECT_DIR$/myproject/templates/password_reset_subject.txt" />
+        <option value="$PROJECT_DIR$/myproject/templates/password_reset_email.html" />
+        <option value="$PROJECT_DIR$/myproject/accounts/tests/test_mail_password_reset.py" />
+        <option value="$PROJECT_DIR$/myproject/templates/password_reset_done.html" />
+        <option value="$PROJECT_DIR$/myproject/accounts/tests/test_view_password_reset.py" />
+        <option value="$PROJECT_DIR$/myproject/templates/password_reset_confirm.html" />
       </list>
     </option>
   </component>
@@ -199,6 +253,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -221,6 +276,19 @@
               <item name="guide-to-django" type="b2602c69:ProjectViewProjectNode" />
               <item name="guide-to-django" type="462c0819:PsiDirectoryNode" />
               <item name="myproject" type="462c0819:PsiDirectoryNode" />
+              <item name="accounts" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="guide-to-django" type="b2602c69:ProjectViewProjectNode" />
+              <item name="guide-to-django" type="462c0819:PsiDirectoryNode" />
+              <item name="myproject" type="462c0819:PsiDirectoryNode" />
+              <item name="myproject" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="guide-to-django" type="b2602c69:ProjectViewProjectNode" />
+              <item name="guide-to-django" type="462c0819:PsiDirectoryNode" />
+              <item name="myproject" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -234,7 +302,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -255,12 +322,15 @@
     <option name="AUTOSCROLL_FROM_SOURCE" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Staff\Documents\Dev\guide-to-django\myproject\templates" />
-      <recent name="C:\Users\Staff\Documents\Dev\guide-to-django\myproject\static\css" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Staff\Documents\Dev\guide-to-django\myproject\static\js" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Staff\Documents\Dev\guide-to-django\myproject\boards\tests" />
+      <recent name="C:\Users\Staff\Documents\Dev\guide-to-django\myproject\static\img" />
+      <recent name="C:\Users\Staff\Documents\Dev\guide-to-django\myproject\accounts\tests" />
+      <recent name="C:\Users\Staff\Documents\Dev\guide-to-django\myproject\templates" />
+      <recent name="C:\Users\Staff\Documents\Dev\guide-to-django\myproject\static\css" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -327,78 +397,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/myproject/myproject/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1584">
-          <caret line="88" selection-start-line="88" selection-end-line="88" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myproject/boards/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="28" column="24" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myproject/boards/tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1926">
-          <caret line="107" column="25" selection-start-line="107" selection-start-column="25" selection-end-line="107" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myproject/myproject/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1584">
-          <caret line="88" selection-start-line="88" selection-end-line="88" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myproject/boards/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="28" column="24" lean-forward="true" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myproject/templates/topics.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myproject/templates/new_topic.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" column="48" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myproject/myproject/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myproject/static/css/app.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/myproject/templates/home.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -413,79 +411,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myproject/boards/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myproject/boards/tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1602">
-          <caret line="93" lean-forward="true" selection-start-line="93" selection-end-line="93" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myproject/myproject/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1584">
-          <caret line="88" selection-start-line="88" selection-end-line="88" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myproject/boards/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myproject/templates/topics.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myproject/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="17" selection-start-column="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myproject/static/css/app.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myproject/templates/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myproject/boards/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myproject/boards/tests.py">
+    <entry file="file://$PROJECT_DIR$/myproject/boards/tests/test_views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="57" column="72" selection-start-line="57" selection-start-column="72" selection-end-line="57" selection-end-column="72" />
@@ -557,7 +483,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myproject/boards/tests.py">
+    <entry file="file://$PROJECT_DIR$/myproject/boards/tests/test_views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="57" column="72" lean-forward="true" selection-start-line="57" selection-start-column="72" selection-end-line="57" selection-end-column="72" />
@@ -581,20 +507,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myproject/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="17" selection-start-column="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myproject/static/css/app.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -643,16 +555,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myproject/boards/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/myproject/templates/new_topic.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
@@ -660,50 +562,232 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myproject/templates/includes/form.html">
+    <entry file="file://$PROJECT_DIR$/myproject/boards/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="51" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
+        <state relative-caret-position="400">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myproject/boards/tests.py">
+    <entry file="file://$PROJECT_DIR$/myproject/accounts/forms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="132" column="47" selection-start-line="132" selection-start-column="47" selection-end-line="132" selection-end-column="47" />
+        <state relative-caret-position="90">
+          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myproject/static/js/popper.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myproject/static/js/jquery-3.2.1.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="1" column="86553" selection-start-line="1" selection-start-column="86553" selection-end-line="1" selection-end-column="86553" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myproject/accounts/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myproject/accounts/tests/test_form_signup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="50" lean-forward="true" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myproject/myproject/settings.py">
+    <entry file="file://$PROJECT_DIR$/myproject/accounts/tests/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myproject/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        <state relative-caret-position="292">
+          <caret line="35" column="33" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myproject/static/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myproject/static/img/memphis-colorful.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myproject/static/css/accounts.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myproject/templates/base_accounts.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="14" lean-forward="true" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myproject/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="44" lean-forward="true" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/myproject/templates/signup.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+        <state relative-caret-position="396">
+          <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myproject/accounts/views.py">
+    <entry file="file://$PROJECT_DIR$/myproject/static/css/app.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="41" lean-forward="true" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
+        <state relative-caret-position="18">
+          <caret line="1" column="4" lean-forward="true" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myproject/boards/templatetags/form_tags.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="46" lean-forward="true" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myproject/boards/templatetags/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myproject/templates/includes/form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="18" selection-start-column="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myproject/boards/tests/test_views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="27" lean-forward="true" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myproject/accounts/tests/test_view_signup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="57" column="43" selection-start-line="57" selection-start-column="43" selection-end-line="57" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myproject/boards/tests/test_templatetags.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="72" lean-forward="true" selection-start-line="17" selection-start-column="72" selection-end-line="17" selection-end-column="72" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myproject/myproject/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="100" lean-forward="true" selection-start-line="100" selection-end-line="100" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myproject/templates/password_reset.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myproject/templates/password_reset_subject.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="42" selection-start-column="34" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myproject/templates/password_reset_email.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myproject/accounts/tests/test_mail_password_reset.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="27" column="58" selection-start-line="27" selection-start-column="58" selection-end-line="27" selection-end-column="58" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myproject/templates/password_reset_done.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myproject/accounts/tests/test_view_password_reset.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="95" column="6" selection-start-line="95" selection-start-column="6" selection-end-line="95" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myproject/templates/password_reset_confirm.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="454">
+          <caret line="33" column="14" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/myproject/myproject/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" lean-forward="true" selection-end-line="12" />
+        <state relative-caret-position="238">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
           <folding>
-            <element signature="e#0#32#0" expanded="true" />
+            <element signature="e#1#38#0" expanded="true" />
           </folding>
         </state>
       </provider>
